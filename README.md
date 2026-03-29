@@ -67,10 +67,14 @@ cd Resume-Analyzer
 ### 3️⃣ Prepare Input Files
 
 #### 📄 resume.txt
+Add your resume content:
+
 ```
 I know Java and problem solving. I have worked on projects.
 ```
 #### 📄 job.txt
+Add job description:
+
 ```
 Looking for candidate with Java, Spring, SQL, problem solving skills.
 ```
