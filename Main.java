@@ -53,12 +53,12 @@ public class Main {
 
         System.out.println("\nMatched Keywords:");
         for (String word : matched) {
-            System.out.println("✔ " + word);
+            System.out.println("[MATCHED] " + word);
         }
 
         System.out.println("\nMissing Keywords:");
         for (String word : missing) {
-            System.out.println("✘ " + word);
+            System.out.println("[MISSING] " + word);
         }
     }
 }
