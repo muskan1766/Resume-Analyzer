@@ -60,5 +60,19 @@ public class Main {
         for (String word : missing) {
             System.out.println("[MISSING] " + word);
         }
+
+        System.out.println("\nSuggestions:");
+
+        if (score < 50) {
+            System.out.println("- Your resume needs significant improvement.");
+        } else if (score < 75) {
+            System.out.println("- Your resume is good but can be improved.");
+        } else {
+            System.out.println("- Your resume is well optimized!");
+        }
+
+        if (!missing.isEmpty()) {
+            System.out.println("- Consider adding these skills: " + missing);
+        }
     }
 }
